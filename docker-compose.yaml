@@ -1,0 +1,16 @@
+version: "3.8"
+#an app has 1 service - film-app
+services:
+ film-app:
+  #build docker from ./Dockerfile
+  build: ./
+  #run it with npm strat
+  command: npm start
+  #use outer port 2603 for us and 3000 for container
+  ports:
+   - 2603:3000
+  #restart if something go wrong
+  restart: always
+  #.env
+  environment:
+   PORT: 3000
