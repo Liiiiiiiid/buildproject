@@ -1,0 +1,225 @@
+@font-face {
+    src: url(./fonts/RussoOne-Regular.ttf);
+    font-family: RussoOne;
+  }
+@font-face {
+     src: url(./fonts/Ubuntu-Bold.ttf);
+     font-family: Ubuntu;
+ }
+ @font-face {
+    src: url(./fonts/Ubuntu-Regular.ttf);
+    font-family: UbuntuRegular;
+}
+
+.navbar-brand{
+    font-family: RussoOne;
+    font-size: 40px;
+    max-width: 70%;
+}
+
+button{
+    margin: 3px;
+}
+body{
+    background-color: #D2B48C;
+}
+header{
+    background-color: #A52A2A;
+}
+nav{
+    background-color: #A52A2A;
+}
+
+.material-symbols-outlined {
+    color: #FAF0E6;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.navbar-brand{
+    color: #FAF0E6;
+}
+
+.col-sm-5{
+    color: #A52A2A;
+    font-family: Ubuntu;
+    font-size: 20px;
+
+}
+.form-control{
+    background-color: #FAF0E6;
+    color: #696969;
+    
+    font-family: UbuntuRegular;
+}
+
+.my-4{
+    color: #D2B48C;
+}
+.search{
+    background-color: #FAF0E6;
+}
+#sub{
+    margin-left: 55px;
+    font-weight: 400;
+    background-color: #A52A2A;
+    border-color: #A52A2A;
+    color: #FAF0E6;
+    width: 500px;
+  }
+  
+  footer {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #A52A2A;
+
+    height: 50px;
+    margin-bottom: 0;
+
+  }
+
+
+  #close{
+    color: #A52A2A;
+    position: absolute;
+    right: 0;
+    z-index: 100;
+    font-size: 40px;
+    margin: 5px;
+    cursor: pointer;
+}
+#close2{
+    position: absolute;
+    right: 0;
+    z-index: 300;
+    width: 70px;
+    color: #A52A2A;
+    margin: 5px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+article {
+    font-family: UbuntuRegular;
+    position: relative;
+    border-radius: 16px;
+    box-shadow: none;
+    background: #FAF0E6;
+    background-color: #FAF0E6;
+    transform-origin: center;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    max-height: 140px;
+  }
+  .articles {
+    display: grid;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 30px;
+  }
+  #section1{
+    font-size: 20px;
+  }
+  .d-flex{
+    margin-left: auto;
+  }
+
+
+
+.card-title{
+    font-family: Ubuntu;
+}
+.comments-title{
+    font-family: Ubuntu;
+    font-size: 20px;
+}
+
+.ov{
+    display: flex;
+    flex-direction: row;
+    background-color: #D2B48C;
+    padding: 3rem;
+    border-radius:20px;
+}
+#byes{
+    background-color: #A52A2A;
+}
+#bno{
+    background-color: #FAF0E6;
+    color: #A52A2A;
+    border-color: #FAF0E6;
+}
+#comm{
+    background-color: #A52A2A;
+    border-color: #A52A2A;
+    color: #FAF0E6;
+}
+
+.card{
+    background-color: #FAF0E6;
+    
+}
+
+.be-comment-block {
+    border: 1px solid #D2B48C;
+    border-radius: 2px;
+    padding: 50px 70px;
+    border:1px solid #D2B48C;
+}
+
+
+.about{
+    display: flex;
+    width: 70%;
+    background-color: #D2B48C;
+    border-radius:20px;
+    border: 2px  solid #D2B48C;
+    top: 0;
+    bottom:0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    flex-direction: row;
+    padding: 20px;
+    font-size: 16px;
+}
+
+
+.about .col-lg-4 img{
+    width: 100%;
+}
+
+.overlay {
+    font-family: UbuntuRegular;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 200;
+}
+
+.overlay2 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 200;
+}
+
